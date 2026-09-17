@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract city and landscape illustration</title>
+  <desc id="desc">A subtle blue and orange skyline used as a decorative background.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eaf6ff" stop-opacity="0.95"/>
+      <stop offset="0.58" stop-color="#f8fbff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#fff8f1" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="city" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7eb7e8" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#0054A6" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b8d6ed" stop-opacity="0.25"/>
+      <stop offset="0.7" stop-color="#77a86d" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#6e9f67" stop-opacity="0.52"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" rx="36" fill="url(#sky)"/>
+  <circle cx="735" cy="150" r="78" fill="#F36F21" opacity="0.06"/>
+  <circle cx="805" cy="104" r="44" fill="#F36F21" opacity="0.04"/>
+  <path d="M0 386 C120 352, 220 382, 320 357 C430 330, 510 370, 610 338 C705 307, 805 334, 900 310 L900 520 L0 520 Z" fill="url(#ground)"/>
+  <g fill="url(#city)">
+    <rect x="470" y="275" width="28" height="108" rx="2"/>
+    <rect x="505" y="244" width="38" height="139" rx="2"/>
+    <rect x="549" y="292" width="30" height="91" rx="2"/>
+    <rect x="586" y="220" width="42" height="163" rx="2"/>
+    <rect x="635" y="263" width="25" height="120" rx="2"/>
+    <rect x="667" y="172" width="43" height="211" rx="2"/>
+    <rect x="718" y="248" width="32" height="135" rx="2"/>
+    <rect x="758" y="198" width="46" height="185" rx="2"/>
+    <rect x="812" y="284" width="31" height="99" rx="2"/>
+  </g>
+  <g stroke="#ffffff" stroke-opacity="0.52" stroke-width="3">
+    <line x1="518" y1="260" x2="518" y2="374"/>
+    <line x1="607" y1="236" x2="607" y2="374"/>
+    <line x1="688" y1="191" x2="688" y2="374"/>
+    <line x1="781" y1="215" x2="781" y2="374"/>
+  </g>
+  <g fill="#4f8d4b" opacity="0.45">
+    <circle cx="470" cy="404" r="34"/><circle cx="525" cy="416" r="42"/><circle cx="586" cy="402" r="38"/>
+    <circle cx="651" cy="421" r="47"/><circle cx="716" cy="399" r="35"/><circle cx="780" cy="417" r="46"/><circle cx="840" cy="402" r="39"/>
+  </g>
+</svg>
